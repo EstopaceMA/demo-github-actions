@@ -1,7 +1,9 @@
 name: Create comment on new issues
+
 on: 
   issues:
     type: [opened]
+    
 jobs:
   comment-with-action:
     runs-on: ubuntu-latest
